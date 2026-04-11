@@ -6,7 +6,7 @@ on:
       os-and-arch:
         description: 'Operating System And Architecture'
         required: true
-        default: '6.0.0'
+        default: '7.7.2'
         type: choice
         options:
           - Windows (x86_64)
@@ -18,15 +18,15 @@ on:
       patch-user-email:
         description: 'Fake registered email (for fake FE account)'
         required: true
-        default: 'long@telerik.com'
+        default: 'mikro@telerik.com'
       patch-user-firstName:
         description: 'Fake registered first name (for fake FE account)'
         required: true
-        default: 'Long'
+        default: 'mikro'
       patch-user-lastName:
         description: 'Fake registered last name (for fake FE account)'
         required: true
-        default: 'Wang'
+        default: '™'
       patch-user-country-code:
         description: 'Fake registered country code (for fake FE account) ; Ex: 86'
         required: true
